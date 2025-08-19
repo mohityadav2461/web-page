@@ -1,163 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Ashok Yadav">
-    
-    <title>Real Estate Website – Buy & Sell Properties | Ashok Yadav</title>
-    <meta name="description" content="Explore real estate listings, property details, and housing guidance with Ashok Yadav's real estate website. Buy and sell properties easily with expert support.">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Paras Property</title>
+<style>
+/* ====== General Styles ====== */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
 
-    <!-- Open Graph for better sharing -->
-    <meta property="og:title" content="Real Estate Website – Buy & Sell Properties | Ashok Yadav">
-    <meta property="og:description" content="Explore property listings and housing guidance with Ashok Yadav. Buy and sell properties with confidence.">
-    <meta property="og:image" content="https://images.seeklogo.com/logo-png/49/1/indian-institute-of-technology-kanpur-logo-png_seeklogo-491778.png">
-    <meta property="og:url" content="https://yourwebsite.com">
-    <meta name="twitter:card" content="summary_large_image">
+/* ====== Navbar ====== */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
 
-    <!-- Favicon -->
-    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/7/7a/House_icon_black.svg" type="image/svg+xml">
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #00BFFF;
+}
+
+/* ====== Sections ====== */
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+/* ====== Properties ====== */
+.properties-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.property {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 300px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.property img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* ====== Footer ====== */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+</style>
 </head>
 <body>
 
-    <!-- Header -->
-    <header>
-        <h1>Welcome to Ashok Yadav's Real Estate Website</h1>
-        <nav>
-            <a href="home.html">Home</a> |
-            <a href="https://www.google.co.in/">Google</a>
-        </nav>
-    </header>
+<!-- ====== Navbar ====== -->
+<nav>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#properties">Properties</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
 
-    <!-- Main Content -->
-    <main>
-        <section>
-            <h2>About Me</h2>
-            <p>Hare Krishna 🙏, my name is Mohit. This is a demo real estate website.</p>
-        </section>
+<!-- ====== Home Section ====== -->
+<section id="home">
+  <h1>Welcome to Paras Property</h1>
+  <p>Your trusted real estate partner.</p>
+</section>
 
-        <section>
-            <h2>Featured Images</h2>
-            <img src="https://w0.peakpx.com/wallpaper/1007/451/HD-wallpaper-shree-ram-lord-rama-face-god-bhakti.jpg" 
-                 alt="Lord Shri Ram image" height="120">
-            <br>
-            <!-- Local image replaced with placeholder -->
-            <img src="https://via.placeholder.com/150" alt="Sample placeholder image" height="120">
-            <br>
-            <img src="https://images.seeklogo.com/logo-png/49/1/indian-institute-of-technology-kanpur-logo-png_seeklogo-491778.png" 
-                 alt="IIT Kanpur Logo" height="120">
-        </section>
+<!-- ====== About Section ====== -->
+<section id="about">
+  <h2>About Us</h2>
+  <p>Paras Property is committed to providing the best real estate services. Our team ensures you find your dream property with ease and confidence.</p>
+</section>
 
-        <section>
-            <h2>Text Formatting Examples</h2>
-            <b>My name is Mohit (bold text)</b><br>
-            <i>My name is Mohit (italic text)</i><br>
-            <u>My name is Mohit (underlined text)</u>
-            <p>Chemical formula example: H<sub>2</sub>O</p>
-        </section>
+<!-- ====== Properties Section ====== -->
+<section id="properties">
+  <h2>Our Properties</h2>
+  <div class="properties-container">
+    <div class="property">
+      <img src="https://via.placeholder.com/300x200" alt="Property 1">
+      <h3>Property 1</h3>
+      <p>Beautiful 3-bedroom house located in the city center.</p>
+    </div>
+    <div class="property">
+      <img src="https://via.placeholder.com/300x200" alt="Property 2">
+      <h3>Property 2</h3>
+      <p>Spacious villa with a garden and modern amenities.</p>
+    </div>
+    <div class="property">
+      <img src="https://via.placeholder.com/300x200" alt="Property 3">
+      <h3>Property 3</h3>
+      <p>Modern apartment with stunning city views.</p>
+    </div>
+  </div>
+</section>
 
-        <section>
-            <h2>Lists</h2>
-            <h3>Ordered List</h3>
-            <ol>
-                <li>Mango</li>
-                <li>Banana</li>
-                <li>Litchi</li>
-            </ol>
-            <h3>Unordered List</h3>
-            <ul>
-                <li>Mango</li>
-                <li>Banana</li>
-                <li>Litchi</li>
-            </ul>
-        </section>
+<!-- ====== Contact Section ====== -->
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p>Email: </p>
+  <p>Phone: </p>
+</section>
 
-        <section>
-            <h2>Tables</h2>
-            <table border="1" cellspacing="0" cellpadding="5">
-                <caption>Fruit Properties</caption>
-                <thead>
-                    <tr>
-                        <th>Fruit Name</th>
-                        <th>Colour</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Mango</td>
-                        <td>Yellow</td>
-                    </tr>
-                    <tr>
-                        <td>Apple</td>
-                        <td>Red</td>
-                    </tr>
-                </tbody>
-            </table>
-            <br>
-            <table border="1" cellspacing="0" cellpadding="5">
-                <caption>Student Details</caption>
-                <thead>
-                    <tr>
-                        <th>Name</th>
-                        <th>Roll No</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Mohit</td>
-                        <td>240658</td>
-                    </tr>
-                    <tr>
-                        <td>Ashish</td>
-                        <td>240657</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-
-        <section>
-            <h2>Form Example</h2>
-            <form action="/action.php" method="POST">
-                <input type="text" placeholder="Username" name="username" required>
-                <input type="password" placeholder="Password" name="password" required>
-
-                <p>Select Vehicle:</p>
-                <label>
-                    <input type="radio" value="car" name="vehicle" id="101"> Car
-                </label>
-                <label>
-                    <input type="radio" value="motorcycle" name="vehicle" id="102"> Motorcycle
-                </label>
-
-                <br><br>
-                <label for="city">Select City:</label>
-                <select name="city" id="city">
-                    <option value="Delhi">Delhi</option>
-                    <option value="Bangalore">Bangalore</option>
-                    <option value="Pune">Pune</option>
-                    <option value="Mumbai">Mumbai</option>
-                </select>
-
-                <br><br>
-                <input type="submit" value="Submit">
-            </form>
-        </section>
-
-        <section>
-            <h2>Embedded YouTube Video</h2>
-            <iframe width="560" height="315" 
-                src="https://www.youtube.com/embed/HcOc7P5BMi4?si=EW6hKCVxRli1T1ZA" 
-                title="HTML Tutorial on YouTube" frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-            </iframe>
-        </section>
-    </main>
-
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2025 Ashok Yadav | Real Estate Website</p>
-    </footer>
+<!-- ====== Footer ====== -->
+<footer>
+  <p>&copy; 2025 Paras Property. All rights reserved.</p>
+</footer>
 
 </body>
 </html>
